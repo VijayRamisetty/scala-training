@@ -55,16 +55,16 @@ object Recursion  extends  App{
 
   println(smartFactorial(10)) ; // 3628800
 
-  //factorialHelper(9,10*1)
-  //factorialHelper(8,9*10)
-  //factorialHelper(7,8*90)
-  //factorialHelper(6,7*720)
-  //factorialHelper(5,6*5040)
-  //factorialHelper(4,5*30240)
-  //factorialHelper(3,4*151200)
-  //factorialHelper(2,3*604800)
-  //factorialHelper(1,2*1814400)
-  //3628800
+  // factorialHelper(9,10*1)
+  // factorialHelper(8,9*10)
+  // factorialHelper(7,8*90)
+  // factorialHelper(6,7*720)
+  // factorialHelper(5,6*5040)
+  // factorialHelper(4,5*30240)
+  // factorialHelper(3,4*151200)
+  // factorialHelper(2,3*604800)
+  // factorialHelper(1,2*1814400)
+  // 3628800
 
 
 
