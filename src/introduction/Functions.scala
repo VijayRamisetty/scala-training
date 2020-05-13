@@ -91,10 +91,7 @@ object Functions extends App {
   println(isNprime(2003)) // true
   println(isNprime(2004)) // false
 
-
-
   // factorial step by step
-
   def myFactorial(n : Int): Long = {
     if(n ==1)  {
       println("-->"+n)
