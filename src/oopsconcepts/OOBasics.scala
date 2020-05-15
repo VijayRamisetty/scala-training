@@ -18,9 +18,14 @@ object OOBasics  extends  App {
   val person = new Person("John",30)  // this line even prints println(3+5) = 8
   // Note : Every instantiation of a class entire code block is evaluated
 
-  println(person.x)  //  2
-  person.greet("Robert")    // John says Hi,Robert , use this.name
-  person.greet                    //  Hi John
+  println(person.x)                 //  2
+  person.greet("Robert")     // John says Hi,Robert , use this.name
+  person.greet                      //  Hi John
+
+  val person2 = new Person("Sam")
+  println(person2.age)              // 25 - default
+  person2.greet()                   // Hi Sam
+
 }
 
 class Car
@@ -32,7 +37,7 @@ class Employee(name:String,val age:Int)  // constructor
 // - here 'val (or var) ' age is a class field , not parameter
 // - here name is not a class field , but a constructor parameter
 
-class Person(name:String, val age :Int ) {
+class Person(name:String, val age :Int = 25 ) {
 
    //fields -  body can have val/ var
    val x =2  //  x here is a field
@@ -51,6 +56,13 @@ class Person(name:String, val age :Int ) {
   def greet():Unit = {
     println(s" Hi $name")   // this prints hi john
   }
+
+  // multiple constructors
+  //def this(name:String)  = {
+  //  this(name,0)            // this way writing is avoided by changing  field val age :Int = 25 as default
+  // }
+
+  def this() = this("Bob")
 
 }
 
