@@ -32,6 +32,7 @@ class Car
 
 class Student(name:String,age:Int)  // constructor , note : class parameters are not fields
 
+// CLASS PARAMETERS vs CLASS FIELDS
 class Employee(name:String,val age:Int)  // constructor
 // note
 // - here 'val (or var) ' age is a class field , not parameter
