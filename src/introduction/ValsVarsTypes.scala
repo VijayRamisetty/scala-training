@@ -4,7 +4,7 @@ object ValsVarsTypes extends  App {
 
   val x : Int = 42;  // immutable can't be reassigned
 
-  println(x);
+  println(x)
 
   // x=2  // Reassignment to val not supported . Vals are immutable ( like finals , constants )
 
@@ -19,10 +19,10 @@ object ValsVarsTypes extends  App {
   val aFloat : Float = 1234.0F // or f
   val aDouble : Double = 3.145
 
-  // Varaibles
-  var aVariable: Int = 4;
+  // Variables
+  var aVariable: Int = 4
 
-  aVariable = 5; // Varaibles - also know as sideEffects , sideEffect meaning is changing a varaible
+  aVariable = 5; // Variables - also know as sideEffects , sideEffect meaning is changing a variable
 
 
 }
