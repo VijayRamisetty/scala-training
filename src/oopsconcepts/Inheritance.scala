@@ -4,7 +4,7 @@ package oopsconcepts
  *
  *
  */
-object InheritanceAndTraits {
+object Inheritance {
 
   class Animal{
     private def play = println("i am private in Animal") // private entries are accessible within the class Animal
